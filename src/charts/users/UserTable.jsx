@@ -59,13 +59,13 @@ export default function UsersTable() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2 }}
     >
-      <div className="flex justify-between flex-col  items-left sm:flex-row sm:items-center mb-6">
+      <div className="flex justify-between flex-col items-left sm:flex-row sm:items-center gap-2 mb-6">
         <h2 className="text-xl font-semibold text-gray-100">Users</h2>
         <div className="relative">
           <input
             type="text"
             placeholder="Search users..."
-            className="bg-gray-700 text-white placeholder-gray-400 rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="bg-gray-700 text-white placeholder-gray-400 rounded-lg pl-10 pr-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={searchTerm}
             onChange={handleSearch}
           />

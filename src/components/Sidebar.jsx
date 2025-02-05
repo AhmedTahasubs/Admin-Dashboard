@@ -24,7 +24,7 @@ export default function Sidebar() {
       </div>
           <nav className='mt-8 flex-grow'>
             {items.map((items,index)=>(
-            <NavLink key={index} to={items.path}>
+            <NavLink key={index} to={items.path} onClick={()=>{isSidebarOpen?setIsSidebarOpen(!isSidebarOpen):null}}>
                 <motion.div className='flex items-center p-4 text-sm font-medium rounded-lg  hover:bg-gray-700 hover:translate-x-2 mb-1 transition-all'>
                   <items.icon size={20} style={{color:items.color,minWidth:"20px"}}/>
                   {isSidebarOpen&&(
