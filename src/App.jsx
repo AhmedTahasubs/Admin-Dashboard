@@ -14,7 +14,7 @@ function App() {
     {path:"/",element:<Layout/>,children:[
       {index:true,element:<OverviewPage/>},
       {path:'/products',element:<ProductsPage/>},
-      {path:'/users',element:<UsersPage/>},
+      // {path:'/users',element:<UsersPage/>},
       {path:'/sales',element:<SalesPage/>},
       {path:'/orders',element:<OrdersPage/>},
       {path:'/analytics',element:<AnalyticsPage/>},
