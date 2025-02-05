@@ -5,7 +5,7 @@ import StatusCard from "../components/StatusCard";
 import UserGrowthChart from "../charts/users/UserGrowthChart";
 import UserDemographicsChart from "../charts/users/UserDemographicsChart";
 import UserActivityHeatmap from "../charts/users/UserActivityHeatmap";
-import UsersTable from "../charts/Users/UserTable";
+import UsersTable from "../charts/users/UserTable";
 export default function UsersPage() {
   const userStats = {
     totalUsers: 152845,
