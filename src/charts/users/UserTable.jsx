@@ -59,7 +59,7 @@ export default function UsersTable() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2 }}
     >
-      <div className="flex justify-between flex-col items-left sm:flex-row sm:items-center mb-6">
+      <div className="flex justify-between flex-col overflow-hidden items-left sm:flex-row sm:items-center mb-6">
         <h2 className="text-xl font-semibold text-gray-100">Users</h2>
         <div className="relative">
           <input

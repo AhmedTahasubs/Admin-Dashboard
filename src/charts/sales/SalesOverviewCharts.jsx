@@ -30,7 +30,7 @@ const SalesOverviewChart = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2 }}
     >
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-left flex-col gap-4 sm:flex-row justify-between mb-6">
         <h2 className="text-xl font-semibold text-gray-100">Sales Overview</h2>
 
         <select

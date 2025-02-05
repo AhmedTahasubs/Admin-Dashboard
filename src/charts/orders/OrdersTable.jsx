@@ -78,12 +78,12 @@ const OrdersTable = () => {
 
   return (
     <motion.div
-      className="bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border border-gray-700"
+      className="bg-gray-800 bg-opacity-50 backdrop-blur-md overflow-hidden shadow-lg rounded-xl p-6 border border-gray-700"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.4 }}
     >
-      <div className="flex justify-between flex-col items-left sm:flex-row sm:items-center mb-6">
+      <div className="flex justify-between flex-col  items-left sm:flex-row sm:items-center mb-6">
         <h2 className="text-xl font-semibold text-gray-100">Order List</h2>
         <div className="relative">
           <input
